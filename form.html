@@ -1,6 +1,8 @@
-	<!DOCTYPE html>
+	 <!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
 		<!-- Mobile Specific Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- Favicon-->
@@ -14,12 +16,13 @@
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
-		<title>Medical</title>
+		<title>Aarogya</title>
 
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
 			<!--
 			CSS
 			============================================= -->
+
 			<link rel="stylesheet" href="css/linearicons.css">
 			<link rel="stylesheet" href="css/font-awesome.min.css">
 			<link rel="stylesheet" href="css/bootstrap.css">
@@ -30,8 +33,6 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">			
 			<link rel="stylesheet" href="css/jquery-ui.css">			
 			<link rel="stylesheet" href="css/main.css">
-			<!--<link rel="stylesheet" href="css/hospital.css">-->
-
 		</head>
 		<body>	
 		  <header id="header">
@@ -43,63 +44,80 @@
 			      <nav id="nav-menu-container">
 			        <ul class="nav-menu">
 			          <li><a href="index.html">Home</a></li>
-			          <!--<li><a href="about.html">About</a></li>-->
-			          <!--<li><a href="latesnews.html">Features</a></li>-->
+			          <li><a href="about.html">About</a></li>
+			          <li><a href="latesnews.html">Latest News</a></li>
 			          <!--<li><a href="doctors.html">Doctors</a></li>-->
-			          <!--<li><a href="hospital.html">Departments</a></li>-->
+			          <li><a href="hospital.html">Hospitals</a></li>
 						<li class="menu-has-children"><a href="">Manny</a>
 							<ul>
 								<li><a href="blog-home.html">Profile</a></li>
 								<li><a href="blog-single.html">Logout</a></li>
 							</ul>
-						</li>			          <!--<li><a href="contact.html">Contact</a></li>-->
+						</li>
+
 			        </ul>
 			      </nav><!-- #nav-menu-container -->		    		
 		    	</div>
 		    </div>
 		  </header><!-- #header -->
-			  
+
 			<!-- start banner Area -->
-			<section class="banner-area relative about-banner" id="home">	
+			<section class="banner-area relative about-banner" id="home">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Hospitals
+								User FeedBack Form
 							</h1>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- End banner Area -->	
-
-			<!-- Start offered-service Area -->
-			<section class="offered-service-area dep-offred-service section-gap">
-				<div class="ccol-md-12">
-					<div class="form-group ad-30" style="margin-top:8px;">
-						<div class="input-group search-style">
-							<input class="form-control new-search-bar"  name="country" id="search" placeholder="Enter Your disease Name" type="text">
-							<span class="input-group-btn">
-                    <button class="btn input-btn" type="" id="search-form">Search</button>
-                </span>
-						</div>
-					</div>
-				</div>	
-			</section>
 
 		  	<section class="section-gap">
-				<div class="col-md-12 col-sm-12" id="hospitalResults"></div>
+				<div class="container">
+					<form>
+						<div class="form-group">
+							<label for="exampleFormControlInput1">Email address</label>
+							<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						</div>
+						<div class="form-group">
+							<label for="exampleFormControlTextarea1">Example textarea</label>
+							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						</div>
+						<div class="form-control">
+							<label for="input-7-xs" class="control-label" style="font-weight:bold">How was doctor's behaviour  </label>
+							<input type="number" min="1" max="5" id="input-7-xs" class="rating rating-loading" value="1" data-min="0" data-max="5" data-step="0.5" data-size="xs"><hr/>
+
+							<label for="input-7-sm" class="control-label" style="font-weight: bold">Did doctor attend you at the time</label>
+							<input type="number" min="1" max="5" id="input-7-sm" class="rating rating-loading" value="2" data-min="0" data-max="5" data-step="0.5" data-size="sm"><hr/>
+
+							<label for="input-7-md" class="control-label" style="font-weight: bold">Are you satisfiy by the treatment </label>
+							<input type="number" min="1" max="5" id="input-7-md" class="rating rating-loading" value="3" data-min="0" data-max="5" data-step="0.5" data-size="md"><hr/>
+
+							<label for="input-7-lg" class="control-label" style="font-weight: bold">How difficulty you face to reach to doctor </label>
+							<input type="number" min="1" max="5" id="input-7-lg" class="rating rating-loading" value="4" data-min="0" data-max="5" data-step="0.5" data-size="lg"><hr/>
+						</div>
+					</form>
+
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</div>
 			</section>
-			<!-- End offered-service Area -->			
+			<!-- End banner Area -->
 
-			<!-- Start team Area -->
+			<!-- Start Sample Area -->
 
-		  <footer class="footer">
-			  <div class="container">
-				  <span class="text-muted">Newsletter</span>
-			  </div>
-		  </footer>
+			<!-- End Sample Area -->
+			<!-- Start Button -->
+			<!-- End Button -->
+			<!-- Start Align Area -->
+
+			<!-- End Align Area -->
+
+			<!-- start footer Area -->
+
+			<!-- End footer Area -->
 
 
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
@@ -116,7 +134,6 @@
 			<script src="js/jquery.nice-select.min.js"></script>	
 			<script src="js/owl.carousel.min.js"></script>									
 			<script src="js/mail-script.js"></script>	
-			<!--<script src="js/main.js"></script>-->
-			<script src="js/hospital.js"></script>
+			<script src="js/main.js"></script>	
 		</body>
 	</html>
